@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!---->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body background="img/fundo2.png">
+    <h2>Login</h2>
+    <form>
+
+        <!-- Mudar o design do Forms conforme o seu estilo -->
+        Login:<br>
+        <input type="text" name="login"><br>
+
+        <!-- Melhor deixar o password pra mater a criptografia dos dados  -->
+        Senha:<br>
+        <input type="password" name="senha"><br>
+
+        <!-- Se colocar o submit a senha vai ficar aprecendo no link do site, tem que usar o PHP -->
+        <input type="submit" value="Entrar"><br>
+
+    </form>
+
+    <hr>
+
+    <!-- caso o usuário não seja cadasatrado -->
+
+    <h2>Cadastro</h2>
+
+
+            <!-- até o momento da v0.2 ainda não foi adicionado função para armazerar os dados do forms-->
+    <form action="">
+
+        Nome Completo:<br>
+        <input type="text" name="FullName"><br>
+        
+        Data de Nascimento:<br>
+        <input type="date" name="DateBorn"><br>
+        
+        Estado:<br>
+        <select id="estado" name="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select><br>
+
+        Login:<br>
+        <input type="text" name="Login"><br>
+
+        Sexo:<br>
+        <input type="radio" name="sexo" value="M">Masculino<br>
+        <input type="radio" name="sexo" value="F">Feminino<br>
+        <input type="radio" name="sexo" value="PNR">Croissant<br>
+
+        <input type="submit" value="Cadastrar">
+
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
